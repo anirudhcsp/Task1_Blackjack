@@ -1,9 +1,9 @@
 """
-GAME FLOW - CORRECTED VERSION
+GAME FLOW - VERSION
 ==============================
 Orchestrates the Blackjack game with WORKING card drawing.
 
-CRITICAL FIX: Instead of relying on LLM to call tools, we:
+Instead of relying on LLM to call tools, we:
 1. Use LLM for decision-making (hit or stand)
 2. Call the tool directly when needed
 3. Update game state properly
