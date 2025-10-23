@@ -44,7 +44,7 @@ task1-blackjack/
 ├── game_flow.py         # Orchestrates game using Crew
 ├── requirements.txt     # Python dependencies
 ├── .env                 # Your OpenAI API key (create this!)
-└── README.md            # This file gives summary about the overall game!
+└── README.md            # This file provides instructions and summary about the overall game!
 ```
 
 ## 🚀 Setup Instructions
