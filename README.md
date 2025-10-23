@@ -44,7 +44,7 @@ task1-blackjack/
 ├── game_flow.py         # Orchestrates game using Crew
 ├── requirements.txt     # Python dependencies
 ├── .env                 # Your OpenAI API key (create this!)
-└── README.md            # This file
+└── README.md            # This file gives summary about the overall game!
 ```
 
 ## 🚀 Setup Instructions
@@ -56,10 +56,10 @@ pip install -r requirements.txt
 ```
 
 **What gets installed:**
-- `crewai==0.80.0` - AI agent framework
-- `crewai-tools==0.12.0` - Tools for agents
-- `openai==1.54.0` - OpenAI API client
-- `python-dotenv==1.0.1` - Environment variable management
+- `crewai` - AI agent framework
+- `crewai-tools` - Tools for agents
+- `openai` - OpenAI API client
+- `python-dotenv` - Environment variable management
 
 ### 2. Create .env File
 
