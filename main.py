@@ -90,7 +90,7 @@ if __name__ == "__main__":
     It does NOT run if this file is imported by another file.
     
     Example:
-        python main.py  ← This runs the game
+        py main.py  ← This runs the game
         import main     ← This does NOT run the game
     """
     main()
