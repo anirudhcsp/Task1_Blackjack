@@ -1,4 +1,4 @@
-crewai
-crewai-tools
-openai
-python-dotenv
+crewai==0.80.0 # AI agent framework
+crewai-tools==0.12.0 # Tools for agents
+openai==1.54.0 # OpenAI API
+python-dotenv==1.0.1 # Environment variables
