@@ -1,0 +1,72 @@
+# ============================================
+# PYTHON & VIRTUAL ENVIRONMENT
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# ============================================
+# SENSITIVE FILES
+# ============================================
+# Never commit API keys or secrets!
+.env
+.env.local
+.env.*.local
+*.key
+secrets.json
+
+# ============================================
+# IDE & EDITOR FILES
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ============================================
+# LOGS & DATABASES
+# ============================================
+*.log
+*.sqlite
+*.db
+
+# ============================================
+# TESTING & COVERAGE
+# ============================================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ============================================
+# PROJECT SPECIFIC
+# ============================================
+# Add any project-specific ignores here
+game_logs/
+test_outputs/
